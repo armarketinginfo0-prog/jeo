@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#171916"><meta name="description" content="JEO Interiors — architectural and interior solutions in Kannankurichi, Salem, Tamil Nadu.">
+<title>JEO Interiors | Architecture & Interior Solutions</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap');
+:root{--ink:#171916;--muted:#777970;--paper:#f5f3ed;--white:#fffefa;--line:rgba(23,25,22,.14);--gold:#b99a68;--green:#333d32;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);overflow-x:hidden}body.loading{overflow:hidden}a{color:inherit;text-decoration:none}img{display:block;width:100%;object-fit:cover}button,input,textarea,select{font:inherit}.container{width:min(1200px,calc(100% - 48px));margin:auto}.eyebrow{font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:700}.serif{font-family:var(--serif);font-weight:400}.section{padding:112px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:32px;margin-bottom:46px}.section-head h2{font:400 clamp(2.3rem,5vw,4.4rem)/1.06 var(--serif);margin:12px 0 0;max-width:650px}.section-head p{max-width:350px;color:var(--muted);line-height:1.8;font-size:.92rem}.btn{display:inline-flex;align-items:center;gap:16px;padding:16px 22px;border:1px solid currentColor;font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;font-weight:700;transition:.35s;position:relative;overflow:hidden}.btn span{position:relative;z-index:1}.btn:before{content:"";position:absolute;inset:0;background:var(--gold);transform:translateY(102%);transition:transform .4s cubic-bezier(.2,.8,.2,1)}.btn:hover:before{transform:translateY(0)}.btn:hover{color:#171916;border-color:var(--gold)}.btn.dark{background:var(--ink);color:white;border-color:var(--ink)}.btn.dark:before{background:var(--gold)}.text-link{font-size:.72rem;text-transform:uppercase;letter-spacing:.16em;font-weight:700;border-bottom:1px solid var(--gold);padding-bottom:8px}
+.header{position:fixed;z-index:100;top:0;left:0;width:100%;padding:22px 0;transition:.4s;color:white}.header.scrolled{background:rgba(245,243,237,.94);backdrop-filter:blur(14px);color:var(--ink);padding:13px 0;box-shadow:0 8px 30px #0000000b}.nav{display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px}.brand-mark{width:39px;height:39px;border:1px solid currentColor;border-radius:50%;display:grid;place-items:center;font:500 1.1rem var(--serif)}.brand-name{font-size:.78rem;letter-spacing:.2em;font-weight:700}.brand-name small{display:block;font-size:.48rem;letter-spacing:.25em;font-weight:400;margin-top:4px}.nav-links{display:flex;gap:30px;align-items:center}.nav-links a{font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;opacity:.85;position:relative}.nav-links a:after{content:"";position:absolute;left:0;bottom:-8px;height:1px;width:0;background:var(--gold);transition:.3s}.nav-links a:hover:after,.nav-links a.active:after{width:100%}.nav-cta{border:1px solid currentColor;padding:12px 16px!important}.menu-toggle{display:none;background:none;border:0;color:inherit;font-size:1.5rem}
+.hero{min-height:100svh;position:relative;display:flex;align-items:end;color:white;background:#30352f;overflow:hidden}.hero-bg{position:absolute;inset:0;background:linear-gradient(90deg,rgba(9,13,10,.72),rgba(9,13,10,.12)),linear-gradient(0deg,rgba(0,0,0,.35),transparent 60%),url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2200&q=90') center/cover;transform:scale(1.08);animation:heroZoom 12s ease-out forwards}.hero-content{position:relative;z-index:1;padding:180px 0 100px}.hero h1{font:400 clamp(3.6rem,8.8vw,8.4rem)/.98 var(--serif);max-width:900px;margin:24px 0 28px;letter-spacing:-.04em}.hero h1 em{color:#d1b68b;font-weight:400}.hero-copy{max-width:460px;color:#e5e4dd;line-height:1.8;font-size:.96rem;margin-bottom:34px}.hero-bottom{display:flex;justify-content:space-between;align-items:end;margin-top:90px}.hero-note{font-size:.65rem;letter-spacing:.17em;text-transform:uppercase;color:#d6d5cc}.scroll-cue{display:flex;align-items:center;gap:12px;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase}.scroll-cue i{width:46px;height:1px;background:var(--gold);display:block}
+@keyframes heroZoom{to{transform:scale(1)}}.ticker{overflow:hidden;background:var(--green);color:#f4f1e8;padding:19px 0;white-space:nowrap}.ticker-track{display:flex;width:max-content;animation:marquee 32s linear infinite}.ticker span{font:400 1.15rem var(--serif);padding:0 28px}.ticker b{color:var(--gold);font-size:.7rem}@keyframes marquee{to{transform:translateX(-50%)}}
+.intro-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:9%;align-items:center}.intro-image{height:650px;position:relative;overflow:hidden}.intro-image img{height:100%;transition:transform 1.2s cubic-bezier(.2,.8,.2,1)}.intro-image:hover img{transform:scale(1.06)}.image-tag{position:absolute;bottom:22px;left:22px;background:var(--paper);padding:15px 18px;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase}.intro-copy h2{font:400 clamp(2.8rem,5vw,5rem)/1.06 var(--serif);margin:18px 0 25px}.intro-copy p{color:var(--muted);line-height:1.9;max-width:500px}.intro-copy .btn{margin-top:24px}
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service-card{background:#e9e6dd;padding:30px;min-height:270px;position:relative;transition:.4s;overflow:hidden}.service-card:before{content:"";position:absolute;width:190px;height:190px;border:1px solid #b99a6840;border-radius:50%;right:-90px;bottom:-90px;transition:.6s}.service-card:hover{background:var(--green);color:white;transform:translateY(-8px)}.service-card:hover:before{transform:scale(1.5)}.service-number{font-size:.7rem;color:var(--gold);letter-spacing:.16em}.service-card h3{font:400 1.8rem var(--serif);margin:55px 0 12px}.service-card p{font-size:.82rem;line-height:1.7;color:var(--muted);max-width:280px}.service-card:hover p{color:#d2d3cb}.service-arrow{position:absolute;right:28px;top:26px;font-size:1.4rem;transition:.3s}.service-card:hover .service-arrow{transform:translate(5px,-5px)}
+.project-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px 22px}.project-card:nth-child(even){margin-top:100px}.project-image{height:430px;overflow:hidden;position:relative;background:#ddd}.project-image img{height:100%;transition:transform 1s cubic-bezier(.2,.8,.2,1)}.project-card:hover img{transform:scale(1.07)}.project-image:after{content:"VIEW PROJECT ↗";position:absolute;bottom:20px;right:20px;background:var(--paper);padding:13px 16px;font-size:.62rem;letter-spacing:.14em;opacity:0;transform:translateY(10px);transition:.35s}.project-card:hover .project-image:after{opacity:1;transform:translateY(0)}.project-meta{display:flex;justify-content:space-between;padding-top:17px;color:var(--muted);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase}.project-card h3{font:400 1.8rem var(--serif);margin:9px 0}
+.quote-band{background:var(--green);color:white;padding:105px 0;text-align:center}.quote-band blockquote{font:400 clamp(2rem,4.5vw,4.2rem)/1.2 var(--serif);max-width:900px;margin:22px auto}.quote-band p{font-size:.65rem;letter-spacing:.18em;text-transform:uppercase;color:#c8b18b}
+.cta-panel{background:#e8e4da;padding:70px;display:flex;justify-content:space-between;align-items:center;gap:30px}.cta-panel h2{font:400 clamp(2.2rem,4vw,4rem)/1.05 var(--serif);max-width:620px;margin:12px 0}
+.footer{background:#171916;color:#f3f0e8;padding:75px 0 25px}.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:45px;padding-bottom:60px}.footer p,.footer a{color:#b9bbb2;font-size:.8rem;line-height:1.9}.footer h4{font-size:.68rem;letter-spacing:.17em;text-transform:uppercase;color:var(--gold);margin:0 0 20px}.footer-brand{font:400 2rem var(--serif)}.footer-bottom{border-top:1px solid #ffffff20;padding-top:20px;display:flex;justify-content:space-between;color:#85877e;font-size:.65rem;letter-spacing:.08em}
+.page-hero{min-height:64vh;background:linear-gradient(90deg,#1119,#1112),url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2000&q=85') center/cover;display:flex;align-items:end;color:white;padding:170px 0 75px}.page-hero h1{font:400 clamp(3.5rem,8vw,7rem)/.98 var(--serif);margin:18px 0}.page-hero p{max-width:480px;line-height:1.8;color:#e3e2dc}
+.about-split{display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center}.about-split img{height:600px}.about-split h2{font:400 clamp(2.5rem,5vw,4.7rem)/1.08 var(--serif)}.about-split p{color:var(--muted);line-height:1.9}
+.process{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.process-item{padding:30px 25px 35px 0;border-right:1px solid var(--line)}.process-item:not(:first-child){padding-left:25px}.process-item:last-child{border:0}.process-item b{color:var(--gold);font-size:.7rem}.process-item h3{font:400 1.6rem var(--serif);margin:30px 0 10px}.process-item p{color:var(--muted);font-size:.8rem;line-height:1.7}
+.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:9%}.contact-details h2{font:400 3rem var(--serif);margin:15px 0}.contact-details p{color:var(--muted);line-height:1.8}.contact-line{padding:20px 0;border-top:1px solid var(--line)}.contact-line small{display:block;color:var(--gold);font-size:.65rem;letter-spacing:.15em;text-transform:uppercase;margin-bottom:8px}.contact-form{display:grid;grid-template-columns:1fr 1fr;gap:22px}.field{display:flex;flex-direction:column;gap:10px}.field.full{grid-column:1/-1}.field label{font-size:.67rem;letter-spacing:.13em;text-transform:uppercase}.field input,.field textarea,.field select{background:transparent;border:0;border-bottom:1px solid #aaa99f;padding:13px 0;outline:0;color:var(--ink)}.field textarea{min-height:110px;resize:vertical}.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--gold)}.form-note{font-size:.72rem;color:var(--muted);line-height:1.6}.map-frame{width:100%;height:380px;border:0;filter:grayscale(1)}
+/* Motion and interaction */
+.reveal{opacity:0;transform:translateY(35px);transition:opacity .85s ease,transform .85s cubic-bezier(.2,.8,.2,1)}.reveal.visible{opacity:1;transform:none}.delay-1{transition-delay:.12s}.delay-2{transition-delay:.24s}.delay-3{transition-delay:.36s}.cursor-glow{position:fixed;z-index:150;pointer-events:none;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,#b99a6812,transparent 68%);transform:translate(-50%,-50%);mix-blend-mode:multiply}.progress{position:fixed;z-index:200;top:0;left:0;height:2px;background:var(--gold);width:0}.preloader{position:fixed;inset:0;background:var(--green);z-index:300;display:grid;place-items:center;color:white;transition:transform .8s cubic-bezier(.76,0,.24,1)}.preloader.done{transform:translateY(-100%)}.loader-mark{font:400 3rem var(--serif);animation:pulse 1.1s ease-in-out infinite alternate}.loader-line{height:1px;width:100px;background:#ffffff40;margin:20px auto;overflow:hidden}.loader-line:after{content:"";display:block;height:100%;width:40%;background:var(--gold);animation:load 1s ease-in-out infinite}@keyframes pulse{to{opacity:.45;transform:scale(.96)}}@keyframes load{from{transform:translateX(-100%)}to{transform:translateX(250%)}}.back-top{position:fixed;right:24px;bottom:24px;width:46px;height:46px;border-radius:50%;background:var(--gold);color:#171916;display:grid;place-items:center;z-index:80;opacity:0;transform:translateY(12px);transition:.3s;border:0;cursor:pointer}.back-top.show{opacity:1;transform:none}.mobile-cta{display:none}
+@media(max-width:850px){.container{width:min(100% - 36px,650px)}.section{padding:78px 0}.section-head{display:block}.section-head p{margin-top:18px}.nav-links{display:none;position:absolute;top:68px;left:0;width:100%;background:var(--paper);color:var(--ink);padding:25px 25px 30px;flex-direction:column;align-items:flex-start;gap:24px}.nav-links.open{display:flex}.menu-toggle{display:block}.header{padding:16px 0}.hero-content{padding:155px 0 65px}.hero h1{font-size:clamp(3.3rem,14vw,6rem)}.hero-bottom{margin-top:60px}.intro-grid,.about-split,.contact-grid{grid-template-columns:1fr;gap:38px}.intro-image{height:440px;order:2}.services-grid{grid-template-columns:1fr 1fr}.service-card{min-height:245px;padding:23px}.project-image{height:330px}.project-card:nth-child(even){margin-top:55px}.cta-panel{padding:38px 25px;display:block}.cta-panel .btn{margin-top:25px}.footer-grid{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr 1fr}.process-item:nth-child(2){border-right:0}.process-item:nth-child(3){padding-left:0;border-top:1px solid var(--line)}.process-item:nth-child(4){border-top:1px solid var(--line)}.cursor-glow{display:none}.mobile-cta{display:flex;position:fixed;z-index:90;bottom:0;left:0;width:100%;background:var(--ink);color:white;justify-content:space-around;padding:13px 8px;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase}.back-top{bottom:70px}}
+@media(max-width:560px){.container{width:calc(100% - 32px)}.hero{min-height:92svh}.hero h1{font-size:3.5rem}.hero-bottom{align-items:start}.hero-note{max-width:170px;line-height:1.6}.scroll-cue{font-size:.55rem}.services-grid{grid-template-columns:1fr}.service-card{min-height:220px}.service-card h3{margin-top:42px}.project-grid{grid-template-columns:1fr;gap:35px}.project-card:nth-child(even){margin-top:0}.project-image{height:350px}.footer-grid{grid-template-columns:1fr 1fr;gap:30px 20px}.footer-grid>div:first-child{grid-column:1/-1}.footer-bottom{display:block;line-height:2}.process{grid-template-columns:1fr}.process-item,.process-item:not(:first-child){padding:25px 0;border-right:0;border-bottom:1px solid var(--line)}.process-item:last-child{border-bottom:0}.contact-form{grid-template-columns:1fr}.field.full{grid-column:auto}.page-hero{min-height:55vh}.page-hero h1{font-size:3.6rem}.intro-image{height:360px}.about-split img{height:390px}}
+
+.single-page-section{display:none;scroll-margin-top:75px}
+.single-page-section.active-page{display:block;animation:pageIn .65s ease both}
+@keyframes pageIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+/* Extra small-screen refinements */
+@media(max-width:600px){
+  .hero-bg{background-position:58% center}
+  .hero-content{padding-top:135px}
+  .hero-copy{font-size:.88rem}
+  .hero-bottom{gap:20px}
+  .section-head h2{font-size:2.65rem}
+  .project-image{height:300px}
+  .page-hero{padding-top:140px}
+  .page-hero h1{font-size:3.25rem}
+  .cta-panel h2{font-size:2.5rem}
+  .footer{padding-bottom:90px}
+  .mobile-cta{box-shadow:0 -8px 25px #0002}
+  .nav-links a{font-size:.78rem;padding:4px 0}
+}
+
+/* CREATIVE PORTFOLIO */
+.creative-portfolio{background:#f4f1e9;color:#20221e}
+.portfolio-intro{padding:165px 0 0;background:#20251f;color:#f5f1e8;overflow:hidden}
+.portfolio-intro-inner{display:grid;grid-template-columns:1.15fr .65fr;gap:7%;align-items:end;padding-bottom:65px}
+.portfolio-title{font:400 clamp(4rem,9vw,9rem)/.88 var(--serif);letter-spacing:-.055em;margin:28px 0 0}
+.portfolio-title em,.portfolio-endcap h2 em{color:#c7aa7e;font-weight:400}
+.portfolio-intro-note{padding-bottom:8px;max-width:340px}
+.portfolio-index,.scroll-indicator{font-size:.59rem;letter-spacing:.18em;color:#c7aa7e}
+.portfolio-intro-note p{font:400 1.05rem/1.8 var(--serif);color:#d2d2c8;margin:20px 0 30px}
+.portfolio-hero-image{height:min(67vw,660px);min-height:360px;position:relative;overflow:hidden}
+.portfolio-hero-image:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#1118,transparent 25%)}
+.portfolio-hero-image img{height:100%;object-position:center 53%;transition:transform 1.5s cubic-bezier(.2,.8,.2,1)}
+.portfolio-hero-image:hover img{transform:scale(1.035)}
+.portfolio-hero-caption{position:absolute;z-index:1;bottom:25px;left:5%;right:5%;display:flex;justify-content:space-between;color:#fff;font-size:.58rem;letter-spacing:.18em}
+.portfolio-body{padding-top:105px;padding-bottom:100px}
+.portfolio-toolbar{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:45px}
+.portfolio-toolbar h2{font:400 clamp(2.5rem,5vw,4.5rem)/1 var(--serif);margin:12px 0 0;letter-spacing:-.04em}
+.gold-dot{color:var(--gold)}
+.portfolio-filters{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}
+.portfolio-filter{border:1px solid #c9c5b9;background:transparent;padding:11px 14px;border-radius:30px;font-size:.65rem;letter-spacing:.08em;color:#686a62;cursor:pointer;transition:.3s}
+.portfolio-filter sup{font-size:.52rem;color:#a18b68;margin-left:4px}
+.portfolio-filter:hover,.portfolio-filter.active{background:#20251f;color:#fff;border-color:#20251f}
+.creative-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:75px 6%;align-items:start}
+.creative-card{min-width:0;transition:opacity .35s,transform .35s}
+.creative-card.is-hidden{display:none}
+.card-offset{margin-top:145px}
+.card-wide{grid-column:1/2;margin-top:-10px}
+.card-last{margin-top:115px}
+.creative-image{display:block;width:100%;padding:0;border:0;background:#ddd;position:relative;overflow:hidden;cursor:pointer;text-align:left}
+.card-tall .creative-image{height:620px}
+.card-offset .creative-image{height:450px}
+.card-wide .creative-image{height:470px}
+.card-last .creative-image{height:510px}
+.creative-image img{height:100%;transition:transform 1.1s cubic-bezier(.2,.8,.2,1),filter .5s}
+.creative-image:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#10130f88,transparent 38%);opacity:.7;transition:opacity .4s}
+.creative-card:hover .creative-image img{transform:scale(1.065);filter:saturate(.88)}
+.creative-card:hover .creative-image:after{opacity:1}
+.card-count{position:absolute;z-index:1;top:20px;left:20px;color:#fff;font-size:.6rem;letter-spacing:.16em}
+.image-open{position:absolute;z-index:2;right:20px;bottom:20px;color:white;font-size:.62rem;letter-spacing:.15em;display:flex;gap:15px;align-items:center;transform:translateY(8px);opacity:0;transition:.35s}
+.image-open b{font-size:1.2rem;font-weight:400}
+.creative-card:hover .image-open{opacity:1;transform:none}
+.creative-card-info{display:flex;justify-content:space-between;align-items:end;gap:15px;padding-top:18px}
+.project-kicker,.project-year{font-size:.57rem;letter-spacing:.15em;color:#8c8c80}
+.creative-card-info h3{font:400 clamp(1.5rem,2.5vw,2.15rem) var(--serif);margin:8px 0 0}
+.project-year{text-align:right;white-space:nowrap}
+.portfolio-disclaimer{margin-top:75px;padding-top:18px;border-top:1px solid #d2cec2;color:#77796f;font-size:.7rem;line-height:1.7}
+.portfolio-disclaimer span{color:var(--gold);margin-right:9px}
+.portfolio-endcap{background:#e7e2d7;padding:95px 0}
+.portfolio-endcap h2{font:400 clamp(3rem,6vw,6rem)/.98 var(--serif);letter-spacing:-.045em;margin:18px 0 30px}
+.lightbox{position:fixed;z-index:500;inset:0;background:rgba(12,14,12,.96);display:none;align-items:center;justify-content:center;padding:30px}
+.lightbox.open{display:flex;animation:lightFade .25s ease}
+@keyframes lightFade{from{opacity:0}to{opacity:1}}
+.lightbox-inner{width:min(1100px,100%);display:grid;grid-template-columns:1.4fr .6fr;gap:35px;align-items:center}
+.lightbox img{max-height:78vh;width:100%;object-fit:contain;background:#101210}
+.lightbox-copy{color:#f5f1e8}
+.lightbox-copy .eyebrow{color:#c7aa7e}
+.lightbox-copy h3{font:400 clamp(2rem,4vw,3.5rem)/1.05 var(--serif);margin:15px 0}
+.lightbox-copy p{color:#c5c5bb;line-height:1.8;font-size:.88rem}
+.lightbox-close{position:absolute;top:25px;right:30px;border:1px solid #ffffff55;background:transparent;color:#fff;width:44px;height:44px;border-radius:50%;font-size:1.4rem;cursor:pointer}
+@media(max-width:850px){
+ .portfolio-intro{padding-top:130px}.portfolio-intro-inner{grid-template-columns:1fr;gap:28px}.portfolio-intro-note{max-width:480px}.portfolio-title{font-size:clamp(4rem,13vw,7rem)}
+ .portfolio-toolbar{display:block}.portfolio-filters{justify-content:flex-start;margin-top:25px}
+ .creative-grid{gap:48px 4%}.card-tall .creative-image{height:500px}.card-offset .creative-image{height:370px}.card-wide .creative-image{height:390px}.card-last .creative-image{height:420px}
+}
+@media(max-width:600px){
+ .portfolio-intro{padding-top:115px}.portfolio-intro-inner{padding-bottom:38px}.portfolio-title{font-size:clamp(3.6rem,17vw,5.5rem)}
+ .portfolio-hero-image{height:75vw;min-height:290px}.portfolio-hero-caption{font-size:.48rem;bottom:15px}
+ .portfolio-body{padding-top:70px;padding-bottom:65px}.portfolio-toolbar h2{font-size:3rem}
+ .portfolio-filters{gap:6px}.portfolio-filter{padding:9px 11px;font-size:.59rem}
+ .creative-grid{grid-template-columns:1fr;gap:40px}.card-offset,.card-last,.card-wide{margin-top:0;grid-column:auto}
+ .card-tall .creative-image,.card-offset .creative-image,.card-wide .creative-image,.card-last .creative-image{height:100vw;max-height:440px;min-height:300px}
+ .creative-card-info h3{font-size:1.65rem}.project-year{font-size:.5rem}
+ .portfolio-disclaimer{margin-top:50px}.portfolio-endcap{padding:70px 0}.portfolio-endcap h2{font-size:3.4rem}
+ .lightbox{padding:18px}.lightbox-inner{grid-template-columns:1fr;gap:16px;max-height:90vh;overflow:auto}.lightbox img{max-height:58vh}.lightbox-copy h3{font-size:2rem}.lightbox-copy p{font-size:.78rem}.lightbox-close{top:12px;right:12px}
+}
+@media(hover:none){.image-open{opacity:1;transform:none}}
+
+
+/* Full-screen cinematic video hero */
+.hero{isolation:isolate;background:#20251f}
+.hero-bg{z-index:-2;background:linear-gradient(90deg,rgba(9,13,10,.72),rgba(9,13,10,.12)),linear-gradient(0deg,rgba(0,0,0,.42),transparent 65%),url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2200&q=90') center/cover}
+.hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-1;filter:brightness(.68) saturate(.82);transform:scale(1.035);animation:videoReveal 1.8s ease-out both}
+.hero:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(9,13,10,.72),rgba(9,13,10,.12)),linear-gradient(0deg,rgba(0,0,0,.45),transparent 65%);pointer-events:none}
+@keyframes videoReveal{from{opacity:0;transform:scale(1.09)}to{opacity:1;transform:scale(1.035)}}
+/* Premium 3D depth and hover motion */
+.service-card,.creative-card,.project-card,.intro-image{transform-style:preserve-3d;will-change:transform;transition:transform .45s cubic-bezier(.2,.8,.2,1),box-shadow .45s}
+.service-card:hover,.creative-card:hover,.project-card:hover{box-shadow:0 24px 55px rgba(22,25,20,.16)}
+.creative-image{transform:translateZ(18px);transform-style:preserve-3d}
+.creative-image img{transition:transform .8s cubic-bezier(.2,.8,.2,1),filter .6s}
+.creative-card:hover .creative-image img{transform:scale(1.055);filter:saturate(1.08)}
+.creative-card-info{transform:translateZ(12px)}
+.project-image img{will-change:transform}
+@media(max-width:850px){.hero-video{object-position:58% center}.service-card,.creative-card,.project-card,.intro-image{transform:none!important;box-shadow:none!important}}
+@media(prefers-reduced-motion:reduce){.hero-video{animation:none}.service-card,.creative-card,.project-card,.intro-image{transition:none}}
+
+</style></head><body>
+
+<div class="preloader"><div><div class="loader-mark">JEO.</div><div class="loader-line"></div><div class="eyebrow" style="text-align:center;color:#d1b68b">Spaces with soul</div></div></div>
+<div class="progress"></div><div class="cursor-glow"></div>
+<header class="header"><div class="container nav">
+<a class="brand" href="#home"><span class="brand-mark">J</span><span class="brand-name">JEO INTERIORS<small>ARCHITECTURE · INTERIORS</small></span></a>
+<button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+<nav class="nav-links">
+<a class="active" href="#home">Home</a><a href="#projects">Projects</a><a href="#services">Services</a><a href="#about">About</a><a class="nav-cta" href="#contact">Contact ↗</a>
+</nav></div></header>
+<main><section class="single-page-section" id="home" aria-label="Home">
+<section class="hero"><div class="hero-bg"></div><video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2200&q=90" aria-label="Cinematic interior design background video"><source src="assets/jeo-interior-showreel.mp4" type="video/mp4"></video><div class="container hero-content">
+<div class="eyebrow reveal">Architectural &amp; interior solutions · Salem</div>
+<h1 class="reveal delay-1">A space should<br/>feel like <em>you.</em></h1>
+<p class="hero-copy reveal delay-2">Thoughtful interiors. Considered details. Spaces designed to feel beautiful, functional and truly yours.</p>
+<a class="btn reveal delay-3" data-magnetic="" href="#projects"><span>Explore our work ↗</span></a>
+<div class="hero-bottom"><div class="hero-note">Designing spaces with purpose<br/>Kannankurichi · Salem</div><div class="scroll-cue"><i></i> Scroll to discover</div></div>
+</div></section>
+<div class="ticker"><div class="ticker-track"><span>INTERIORS WITH INTENTION</span><b>✳</b><span>ARCHITECTURE &amp; DESIGN</span><b>✳</b><span>SPACES THAT INSPIRE</span><b>✳</b><span>INTERIORS WITH INTENTION</span><b>✳</b><span>ARCHITECTURE &amp; DESIGN</span><b>✳</b><span>SPACES THAT INSPIRE</span><b>✳</b></div></div>
+<section class="section"><div class="container intro-grid">
+<div class="intro-image reveal"><img alt="Warm contemporary living room" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=1100&amp;q=85"/><div class="image-tag">Designed for living</div></div>
+<div class="intro-copy reveal delay-1"><div class="eyebrow">The JEO approach</div><h2>More than a room.<br/><em class="serif">A feeling.</em></h2><p>At JEO Interiors, we believe great spaces bring together beauty, comfort and purpose. From the first idea to the finishing details, our focus is on creating interiors that feel considered and personal.</p><p>Whether you're shaping a new home or refreshing a familiar space, let's make every corner count.</p><a class="btn dark" href="#about"><span>Discover JEO ↗</span></a></div>
+</div></section>
+<section class="section" style="background:#eeece5"><div class="container"><div class="section-head reveal"><div><div class="eyebrow">What we do</div><h2>Designed around<br/>the way you live.</h2></div><p>From a single room to a complete interior, explore design possibilities that balance aesthetics and everyday function.</p></div>
+<div class="services-grid">
+<a class="service-card reveal" data-tilt="" href="#services"><span class="service-number">01 / RESIDENTIAL</span><span class="service-arrow">↗</span><h3>Home Interiors</h3><p>Personal, comfortable spaces with thoughtful details and a sense of harmony.</p></a>
+<a class="service-card reveal delay-1" data-tilt="" href="#services"><span class="service-number">02 / KITCHEN</span><span class="service-arrow">↗</span><h3>Modular Kitchens</h3><p>Beautifully planned kitchens that make daily routines feel effortless.</p></a>
+<a class="service-card reveal delay-2" data-tilt="" href="#services"><span class="service-number">03 / COMPLETE SPACES</span><span class="service-arrow">↗</span><h3>Turnkey Interiors</h3><p>A considered approach to bringing the larger vision together.</p></a>
+</div></div></section>
+<section class="section"><div class="container"><div class="section-head reveal"><div><div class="eyebrow">Selected inspiration</div><h2>Spaces worth<br/>spending time in.</h2></div><a class="text-link" href="#projects">View all projects ↗</a></div>
+<div class="project-grid">
+<a class="project-card reveal" href="#projects"><div class="project-image"><img alt="Contemporary living room" src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&amp;fit=crop&amp;w=1100&amp;q=85"/></div><div class="project-meta"><span>Living spaces</span><span>01 — 04</span></div><h3>Calm, contemporary living</h3></a>
+<a class="project-card reveal delay-1" href="#projects"><div class="project-image"><img alt="Modern dining interior" src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&amp;fit=crop&amp;w=1100&amp;q=85"/></div><div class="project-meta"><span>Dining &amp; lifestyle</span><span>02 — 04</span></div><h3>Gather beautifully</h3></a>
+</div><p class="form-note" style="margin-top:24px">Note: These are visual inspiration images used for the initial website mock-up. Replace with JEO Interiors' actual completed projects before publishing.</p></div></section>
+<section class="quote-band"><div class="container reveal"><div class="eyebrow">Our point of view</div><blockquote>“Good design is not only what you see. It is how a space makes you feel.”</blockquote><p>Thoughtful by design · Personal by nature</p></div></section>
+<section class="section"><div class="container"><div class="cta-panel reveal"><div><div class="eyebrow">Have a project in mind?</div><h2>Let's create a space that feels like yours.</h2></div><a class="btn dark" data-magnetic="" href="#contact"><span>Start a conversation ↗</span></a></div></div></section>
+</section>
+
+<section class="single-page-section" id="projects" aria-label="Projects">
+  <section class="creative-portfolio">
+    <div class="portfolio-intro">
+      <div class="container portfolio-intro-inner">
+        <div>
+          <div class="eyebrow reveal">A considered collection · JEO Interiors</div>
+          <h1 class="portfolio-title reveal delay-1">Spaces with<br><em>character.</em></h1>
+        </div>
+        <div class="portfolio-intro-note reveal delay-2">
+          <span class="portfolio-index">01 — 04 / SELECTED INSPIRATION</span>
+          <p>Every room has a point of view. Explore a collection of interiors, textures and ideas that bring everyday spaces to life.</p>
+          <span class="scroll-indicator">SCROLL TO EXPLORE ↓</span>
+        </div>
+      </div>
+      <div class="portfolio-hero-image reveal">
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2200&q=90" alt="Contemporary luxury living room with warm natural finishes">
+        <div class="portfolio-hero-caption"><span>JEO / VISUAL JOURNAL</span><span>FORM · LIGHT · MATERIAL</span></div>
+      </div>
+    </div>
+
+    <div class="container portfolio-body">
+      <div class="portfolio-toolbar reveal">
+        <div><span class="eyebrow">The portfolio</span><h2>Selected spaces<span class="gold-dot">.</span></h2></div>
+        <div class="portfolio-filters" role="group" aria-label="Filter projects">
+          <button class="portfolio-filter active" data-filter="all">All <sup>04</sup></button>
+          <button class="portfolio-filter" data-filter="living">Living <sup>01</sup></button>
+          <button class="portfolio-filter" data-filter="bedroom">Bedroom <sup>01</sup></button>
+          <button class="portfolio-filter" data-filter="kitchen">Kitchen <sup>01</sup></button>
+          <button class="portfolio-filter" data-filter="dining">Dining <sup>01</sup></button>
+        </div>
+      </div>
+
+      <div class="creative-grid" id="creativeGrid">
+        <article class="creative-card card-tall reveal" data-tilt="" data-category="living" data-title="Warm modern living" data-type="Living spaces" data-description="A calm, contemporary living space built around natural textures, soft light and considered proportions.">
+          <button class="creative-image" aria-label="View Warm modern living project">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=90" alt="Warm modern living room with sculptural furniture">
+            <span class="card-count">01 / 04</span><span class="image-open">VIEW PROJECT <b>↗</b></span>
+          </button>
+          <div class="creative-card-info"><div><span class="project-kicker">01 — LIVING SPACES</span><h3>Warm modern living</h3></div><span class="project-year">INTERIOR STUDY</span></div>
+        </article>
+
+        <article class="creative-card card-offset reveal delay-1" data-tilt="" data-category="dining" data-title="Gather beautifully" data-type="Dining spaces" data-description="A welcoming dining environment where natural materials and clean lines create an easy sense of occasion.">
+          <button class="creative-image" aria-label="View Gather beautifully project">
+            <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=90" alt="Elegant contemporary dining area">
+            <span class="card-count">02 / 04</span><span class="image-open">VIEW PROJECT <b>↗</b></span>
+          </button>
+          <div class="creative-card-info"><div><span class="project-kicker">02 — DINING</span><h3>Gather beautifully</h3></div><span class="project-year">INTERIOR STUDY</span></div>
+        </article>
+
+        <article class="creative-card card-wide reveal" data-tilt="" data-category="bedroom" data-title="A quieter kind of luxury" data-type="Bedroom spaces" data-description="A restful bedroom mood using warm neutrals, layered textures and understated detailing.">
+          <button class="creative-image" aria-label="View A quieter kind of luxury project">
+            <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=1800&q=90" alt="Serene luxury bedroom interior">
+            <span class="card-count">03 / 04</span><span class="image-open">VIEW PROJECT <b>↗</b></span>
+          </button>
+          <div class="creative-card-info"><div><span class="project-kicker">03 — BEDROOM</span><h3>A quieter kind of luxury</h3></div><span class="project-year">INTERIOR STUDY</span></div>
+        </article>
+
+        <article class="creative-card card-last reveal delay-1" data-tilt="" data-category="kitchen" data-title="Everyday, elevated" data-type="Kitchen spaces" data-description="A modern kitchen inspiration study focused on clean surfaces, functional flow and warm material contrasts.">
+          <button class="creative-image" aria-label="View Everyday, elevated project">
+            <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1400&q=90" alt="Modern kitchen with natural wood and stone finishes">
+            <span class="card-count">04 / 04</span><span class="image-open">VIEW PROJECT <b>↗</b></span>
+          </button>
+          <div class="creative-card-info"><div><span class="project-kicker">04 — KITCHEN</span><h3>Everyday, elevated</h3></div><span class="project-year">INTERIOR STUDY</span></div>
+        </article>
+      </div>
+
+      <div class="portfolio-disclaimer reveal"><span>✳</span> Portfolio imagery is currently illustrative inspiration. Replace with JEO Interiors' verified project photographs and details before publishing.</div>
+    </div>
+    <div class="portfolio-endcap"><div class="container"><span class="eyebrow">Have a space in mind?</span><h2>Let's make room<br>for <em>something beautiful.</em></h2><a class="btn dark" href="#contact"><span>Discuss your project ↗</span></a></div></div>
+  </section>
+</section>
+
+<section class="section"><div class="container"><div class="section-head reveal"><div><div class="eyebrow">Project gallery</div><h2>Ideas made<br/>into atmosphere.</h2></div><p>Browse the inspiration gallery. The images below are temporary design references and should be replaced with verified JEO Interiors project photographs.</p></div>
+<div class="project-grid">
+<a class="project-card reveal" href="#contact"><div class="project-image"><img alt="Living room inspiration" src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"/></div><div class="project-meta"><span>Residential</span><span>01</span></div><h3>Warm modern living</h3></a>
+<a class="project-card reveal delay-1" href="#contact"><div class="project-image"><img alt="Dining room inspiration" src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"/></div><div class="project-meta"><span>Dining</span><span>02</span></div><h3>Spaces to gather</h3></a>
+<a class="project-card reveal" href="#contact"><div class="project-image"><img alt="Bedroom inspiration" src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"/></div><div class="project-meta"><span>Bedroom</span><span>03</span></div><h3>A quieter kind of luxury</h3></a>
+<a class="project-card reveal delay-1" href="#contact"><div class="project-image"><img alt="Kitchen inspiration" src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"/></div><div class="project-meta"><span>Kitchen</span><span>04</span></div><h3>Everyday, elevated</h3></a>
+</div></div></section>
+<section class="section" style="padding-top:0"><div class="container"><div class="cta-panel reveal"><div><div class="eyebrow">Your space, next</div><h2>Have a vision you'd love to bring to life?</h2></div><a class="btn dark" href="#contact"><span>Discuss your project ↗</span></a></div></div></section>
+</section>
+<section class="single-page-section" id="services" aria-label="Services">
+<section class="page-hero"><div class="container"><div class="eyebrow reveal">Our capabilities</div><h1 class="reveal delay-1">Thoughtful design.<br/><em>Purposeful spaces.</em></h1><p class="reveal delay-2">A considered approach to interiors, from the overall vision to the smallest finishing touch.</p></div></section>
+<section class="section"><div class="container"><div class="section-head reveal"><div><div class="eyebrow">How we can help</div><h2>Spaces shaped<br/>around your life.</h2></div><p>These are proposed service categories for the website. Confirm the exact services offered by JEO Interiors before launch.</p></div>
+<div class="services-grid">
+<div class="service-card reveal"><span class="service-number">01</span><span class="service-arrow">↗</span><h3>Residential Interiors</h3><p>Living rooms, bedrooms and complete home interiors shaped around your lifestyle.</p></div>
+<div class="service-card reveal delay-1"><span class="service-number">02</span><span class="service-arrow">↗</span><h3>Modular Kitchens</h3><p>Practical layouts, considered storage and finishes that bring the kitchen together.</p></div>
+<div class="service-card reveal delay-2"><span class="service-number">03</span><span class="service-arrow">↗</span><h3>Wardrobes &amp; Storage</h3><p>Smart storage ideas designed to make the most of your available space.</p></div>
+<div class="service-card reveal"><span class="service-number">04</span><span class="service-arrow">↗</span><h3>False Ceilings &amp; Lighting</h3><p>Layered lighting and ceiling details that create atmosphere and visual balance.</p></div>
+<div class="service-card reveal delay-1"><span class="service-number">05</span><span class="service-arrow">↗</span><h3>Commercial Interiors</h3><p>Work and business environments designed to welcome people and support daily use.</p></div>
+<div class="service-card reveal delay-2"><span class="service-number">06</span><span class="service-arrow">↗</span><h3>Turnkey Solutions</h3><p>A coordinated approach to taking an interior concept through to its finished form.</p></div>
+</div></div></section>
+<section class="section" style="background:#eeece5"><div class="container"><div class="section-head reveal"><div><div class="eyebrow">The process</div><h2>From first thought<br/>to final detail.</h2></div></div>
+<div class="process">
+<div class="process-item reveal"><b>01 / DISCOVER</b><h3>Understand</h3><p>We begin with your needs, preferences, space and aspirations.</p></div>
+<div class="process-item reveal delay-1"><b>02 / DEFINE</b><h3>Plan</h3><p>Shape the design direction, layout and material ideas.</p></div>
+<div class="process-item reveal delay-2"><b>03 / CREATE</b><h3>Execute</h3><p>Bring the agreed design together with care and coordination.</p></div>
+<div class="process-item reveal delay-3"><b>04 / COMPLETE</b><h3>Refine</h3><p>Focus on the details that make the space feel complete.</p></div>
+</div></div></section>
+<section class="section"><div class="container"><div class="cta-panel reveal"><div><div class="eyebrow">Let's talk about your space</div><h2>Every great interior begins with a conversation.</h2></div><a class="btn dark" href="#contact"><span>Enquire now ↗</span></a></div></div></section>
+</section>
+<section class="single-page-section" id="about" aria-label="About">
+<section class="page-hero"><div class="container"><div class="eyebrow reveal">A little about us</div><h1 class="reveal delay-1">Design with<br/><em>meaning.</em></h1><p class="reveal delay-2">Architectural and interior solutions in Kannankurichi, Salem.</p></div></section>
+<section class="section"><div class="container about-split">
+<div class="reveal"><img alt="Elegant contemporary interior" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=1100&amp;q=85"/></div>
+<div class="reveal delay-1"><div class="eyebrow">The JEO philosophy</div><h2>Beautiful spaces begin with understanding.</h2><p>Every space has its own character. The people who use it, the way they move through it and the feeling they want to create all matter.</p><p>JEO Interiors brings an architectural and interior perspective to creating spaces that feel personal, balanced and purposeful.</p><p>Based in Kannankurichi, Salem, the studio welcomes conversations about residential and interior design needs.</p><a class="btn dark" href="#contact"><span>Meet us ↗</span></a></div>
+</div></section>
+<section class="quote-band"><div class="container reveal"><div class="eyebrow">Our belief</div><blockquote>“The best spaces don't ask for attention. They make you feel at home.”</blockquote><p>JEO Interiors · Kannankurichi, Salem</p></div></section>
+<section class="section"><div class="container"><div class="section-head reveal"><div><div class="eyebrow">Why thoughtful design</div><h2>Good design lives<br/>in the details.</h2></div><p>We believe the process should be collaborative, considered and centred on the people who will experience the space every day.</p></div><div class="services-grid">
+<div class="service-card reveal"><span class="service-number">01</span><h3>Personal</h3><p>Your needs, preferences and daily routines shape the design direction.</p></div>
+<div class="service-card reveal delay-1"><span class="service-number">02</span><h3>Purposeful</h3><p>Every design decision should contribute to how the space works and feels.</p></div>
+<div class="service-card reveal delay-2"><span class="service-number">03</span><h3>Considered</h3><p>Materials, proportions, light and details all have a place in the bigger picture.</p></div>
+</div></div></section>
+</section>
+<section class="single-page-section" id="contact" aria-label="Contact">
+<section class="page-hero"><div class="container"><div class="eyebrow reveal">Start a conversation</div><h1 class="reveal delay-1">Let's talk<br/><em>about your space.</em></h1><p class="reveal delay-2">Share a little about your project. We'd love to hear what you have in mind.</p></div></section>
+<section class="section"><div class="container contact-grid">
+<div class="contact-details reveal"><div class="eyebrow">Get in touch</div><h2>We're right here in Salem.</h2><p>Reach out to discuss your interior design requirements or visit our location in Kannankurichi.</p>
+<div class="contact-line"><small>Call us</small><a href="tel:+918438134142">084381 34142</a></div>
+<div class="contact-line"><small>Visit us</small><p>5C, IB Chetty Street, Venkateswara,<br/>Kanniyer Kadu, Kannankurichi,<br/>Salem, Tamil Nadu 636008</p></div>
+<div class="contact-line"><small>Find us</small><a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=5C+IB+Chetty+Street+Venkateswara+Kannankurichi+Salem+636008" target="_blank">Open Google Maps ↗</a></div>
+<a class="btn dark" href="https://wa.me/918438134142" style="margin-top:25px" target="_blank"><span>Chat on WhatsApp ↗</span></a></div>
+<div class="reveal delay-1"><form class="contact-form" data-whatsapp="">
+<div class="field"><label>Your name *</label><input name="name" placeholder="Full name" required=""/></div>
+<div class="field"><label>Phone number *</label><input name="phone" placeholder="Your phone number" required="" type="tel"/></div>
+<div class="field full"><label>What are you planning? *</label><select name="project" required=""><option value="">Select project type</option><option>Full home interiors</option><option>Living room</option><option>Bedroom</option><option>Modular kitchen</option><option>Commercial interiors</option><option>Other</option></select></div>
+<div class="field full"><label>Tell us a little more</label><textarea name="message" placeholder="Your ideas, requirements, location or approximate timeline..."></textarea></div>
+<div class="field full"><button class="btn dark" style="cursor:pointer" type="submit"><span>Send enquiry via WhatsApp ↗</span></button><p class="form-note">Your details will open in a WhatsApp message to JEO Interiors. Please review and send the message to complete your enquiry.</p></div>
+</form></div>
+</div></section>
+<section style="padding-bottom:0"><iframe class="map-frame" loading="lazy" src="https://www.google.com/maps?q=5C%20IB%20Chetty%20Street%2C%20Kannankurichi%2C%20Salem%20636008&amp;output=embed" title="JEO Interiors location map"></iframe></section>
+</section></main>
+<footer class="footer"><div class="container">
+<div class="footer-grid">
+<div><div class="footer-brand">JEO Interiors.</div><p>Architectural & interior solutions shaped around the way you live, work and feel.</p><p>Kannankurichi, Salem<br>Tamil Nadu 636008</p></div>
+<div><h4>Explore</h4><p><a href="#projects">Our projects</a><br><a href="#services">Services</a><br><a href="#about">About JEO</a><br><a href="#contact">Contact</a></p></div>
+<div><h4>Get in touch</h4><p><a href="tel:+918438134142">084381 34142</a><br><a href="https://wa.me/918438134142" target="_blank">WhatsApp us</a><br><a href="https://www.google.com/maps/search/?api=1&query=5C+IB+Chetty+Street+Venkateswara+Kannankurichi+Salem+636008" target="_blank">Get directions ↗</a></p></div>
+<div><h4>Studio note</h4><p>Have a space in mind? Tell us what you're imagining. We'll help you take the first step.</p><a class="text-link" href="#contact">Let's talk ↗</a></div>
+</div><div class="footer-bottom"><span>© 2026 JEO INTERIORS. ALL RIGHTS RESERVED.</span><span>DESIGNED WITH INTENTION · SALEM, INDIA</span></div>
+</div></footer>
+<div class="mobile-cta"><a href="tel:+918438134142">☎ Call</a><a href="https://wa.me/918438134142" target="_blank">✳ WhatsApp</a><a href="#contact">Enquire ↗</a></div>
+<button class="back-top" aria-label="Back to top">↑</button>
+
+<script>
+const header=document.querySelector('.header'),progress=document.querySelector('.progress'),back=document.querySelector('.back-top'),menu=document.querySelector('.menu-toggle'),links=document.querySelector('.nav-links'),preloader=document.querySelector('.preloader');
+window.addEventListener('load',()=>setTimeout(()=>preloader?.classList.add('done'),400));
+const heroVideo=document.querySelector('.hero-video');heroVideo?.addEventListener('error',()=>heroVideo.style.display='none');
+function showPage(id,scroll=true){
+ const valid=['home','projects','services','about','contact']; if(!valid.includes(id))id='home';
+ document.querySelectorAll('.single-page-section').forEach(s=>s.classList.toggle('active-page',s.id===id));
+ document.querySelectorAll('.nav-links a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+id));
+ links?.classList.remove('open');menu?.setAttribute('aria-expanded','false');
+ if(scroll)window.scrollTo({top:0,behavior:'smooth'});
+ setTimeout(()=>document.querySelectorAll('#'+id+' .reveal').forEach(el=>observer.observe(el)),30);
+}
+window.addEventListener('hashchange',()=>showPage(location.hash.slice(1)||'home'));
+showPage(location.hash.slice(1)||'home',false);
+window.addEventListener('scroll',()=>{
+ const y=window.scrollY,max=document.documentElement.scrollHeight-window.innerHeight;
+ header?.classList.toggle('scrolled',y>40);
+ if(progress)progress.style.width=(max>0?y/max*100:0)+'%';
+ back?.classList.toggle('show',y>500);
+});
+menu?.addEventListener('click',()=>{links.classList.toggle('open');menu.setAttribute('aria-expanded',links.classList.contains('open'))});
+const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.08});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+back?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+const glow=document.querySelector('.cursor-glow');
+window.addEventListener('pointermove',e=>{if(glow&&e.pointerType==='mouse'){glow.style.left=e.clientX+'px';glow.style.top=e.clientY+'px'}});
+document.querySelectorAll('[data-magnetic]').forEach(el=>{
+ el.addEventListener('mousemove',e=>{const r=el.getBoundingClientRect();el.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.08}px,${(e.clientY-r.top-r.height/2)*.08}px)`});
+ el.addEventListener('mouseleave',()=>el.style.transform='');
+});
+document.querySelectorAll('[data-tilt]').forEach(el=>{
+ el.addEventListener('mousemove',e=>{const r=el.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;el.style.transform=`perspective(900px) rotateY(${x*4}deg) rotateX(${-y*4}deg) translateY(-5px)`});
+ el.addEventListener('mouseleave',()=>el.style.transform='');
+});
+document.querySelectorAll('form[data-whatsapp]').forEach(form=>form.addEventListener('submit',e=>{
+ e.preventDefault();const d=new FormData(form);
+ const msg=`Hello JEO Interiors, I'd like to enquire about an interior project.%0AName: ${encodeURIComponent(d.get('name'))}%0APhone: ${encodeURIComponent(d.get('phone'))}%0AProject: ${encodeURIComponent(d.get('project'))}%0AMessage: ${encodeURIComponent(d.get('message')||'')}`;
+ window.open(`https://wa.me/918438134142?text=${msg}`,'_blank');
+}));
+</script>
+<div class="lightbox" id="portfolioLightbox" role="dialog" aria-modal="true" aria-label="Project preview">
+  <button class="lightbox-close" aria-label="Close project preview">×</button>
+  <div class="lightbox-inner">
+    <img id="lightboxImage" src="" alt="">
+    <div class="lightbox-copy"><div class="eyebrow" id="lightboxType">PROJECT PREVIEW</div><h3 id="lightboxTitle"></h3><p id="lightboxDescription"></p><a class="text-link" href="#contact">Discuss a similar space ↗</a></div>
+  </div>
+</div>
+<script>
+// Creative portfolio filters and image lightbox
+const filterButtons=document.querySelectorAll('.portfolio-filter');
+filterButtons.forEach(btn=>btn.addEventListener('click',()=>{
+ filterButtons.forEach(b=>b.classList.remove('active'));btn.classList.add('active');
+ const category=btn.dataset.filter;
+ document.querySelectorAll('.creative-card').forEach(card=>{
+  const show=category==='all'||card.dataset.category===category;
+  card.classList.toggle('is-hidden',!show);
+ });
+}));
+const lightbox=document.getElementById('portfolioLightbox');
+const lightboxImage=document.getElementById('lightboxImage');
+document.querySelectorAll('.creative-card').forEach(card=>{
+ card.querySelector('.creative-image').addEventListener('click',()=>{
+  const img=card.querySelector('img');
+  lightboxImage.src=img.src;lightboxImage.alt=img.alt;
+  document.getElementById('lightboxTitle').textContent=card.dataset.title;
+  document.getElementById('lightboxType').textContent=card.dataset.type;
+  document.getElementById('lightboxDescription').textContent=card.dataset.description;
+  lightbox.classList.add('open');document.body.style.overflow='hidden';
+ });
+});
+function closePortfolioLightbox(){lightbox.classList.remove('open');document.body.style.overflow=''}
+lightbox.querySelector('.lightbox-close').addEventListener('click',closePortfolioLightbox);
+lightbox.addEventListener('click',e=>{if(e.target===lightbox)closePortfolioLightbox()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closePortfolioLightbox()});
+</script></body></html>
